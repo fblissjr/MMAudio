@@ -1,0 +1,226 @@
+{
+  "speech": {
+    "name": "Speech & Voice",
+    "subcategories": {
+      "basic": {
+        "name": "Basic Speech",
+        "prompts": [
+          {
+            "text": "A man speaking clearly and professionally",
+            "negative": "music, noise, echo"
+          },
+          {
+            "text": "A woman speaking with a warm, friendly tone",
+            "negative": "music, background noise"
+          },
+          {
+            "text": "A deep male voice narrating slowly",
+            "negative": "music, echo, other voices"
+          }
+        ]
+      },
+      "professional": {
+        "name": "Professional Voice",
+        "prompts": [
+          {
+            "text": "A radio announcer speaking with broadcast clarity",
+            "negative": "music, static, background"
+          },
+          {
+            "text": "A news anchor delivering breaking news",
+            "negative": "music, crowd noise, echo"
+          },
+          {
+            "text": "A sports commentator speaking excitedly",
+            "negative": "music, crowd, stadium noise"
+          }
+        ]
+      },
+      "modified": {
+        "name": "Modified Speech",
+        "prompts": [
+          {
+            "text": "A voice speaking through a telephone",
+            "negative": "music, clear voice, room sound"
+          },
+          {
+            "text": "A megaphone announcement with light distortion",
+            "negative": "music, clean voice, echo"
+          },
+          {
+            "text": "A voice through an old radio with static",
+            "negative": "music, clear audio, modern sound"
+          }
+        ]
+      }
+    }
+  },
+  "sfx": {
+    "name": "Sound Effects",
+    "subcategories": {
+      "impacts": {
+        "name": "Impact Sounds",
+        "prompts": [
+          {
+            "text": "Metal objects clanging together sharply",
+            "negative": "music, voices, soft sounds"
+          },
+          {
+            "text": "Glass shattering on concrete",
+            "negative": "music, voices, ambience"
+          },
+          {
+            "text": "Heavy wooden door slamming shut",
+            "negative": "music, voices, light sounds"
+          }
+        ]
+      },
+      "mechanical": {
+        "name": "Mechanical Effects",
+        "prompts": [
+          {
+            "text": "Old machinery creaking and grinding",
+            "negative": "music, voices, digital sounds"
+          },
+          {
+            "text": "Gears turning and clicking",
+            "negative": "music, voices, organic sounds"
+          },
+          {
+            "text": "Industrial pistons pumping rhythmically",
+            "negative": "music, voices, nature"
+          }
+        ]
+      },
+      "electronic": {
+        "name": "Digital & Electronic",
+        "prompts": [
+          {
+            "text": "Computer beeps and boops",
+            "negative": "music, voices, acoustic sounds"
+          },
+          {
+            "text": "Digital glitch sounds and artifacts",
+            "negative": "music, voices, clean audio"
+          },
+          {
+            "text": "Electronic buzzing and interference",
+            "negative": "music, voices, nature"
+          }
+        ]
+      }
+    }
+  },
+  "nature": {
+    "name": "Nature & Environment",
+    "subcategories": {
+      "weather": {
+        "name": "Weather",
+        "prompts": [
+          {
+            "text": "Heavy rain with distant thunder",
+            "negative": "music, voices, indoor sounds"
+          },
+          {
+            "text": "Strong wind through trees",
+            "negative": "music, voices, artificial sounds"
+          },
+          {
+            "text": "Ocean waves crashing on rocks",
+            "negative": "music, voices, machinery"
+          }
+        ]
+      },
+      "forest": {
+        "name": "Forest & Wildlife",
+        "prompts": [
+          {
+            "text": "Birds chirping in morning forest",
+            "negative": "music, voices, urban sounds"
+          },
+          {
+            "text": "Leaves rustling in breeze",
+            "negative": "music, voices, mechanical"
+          },
+          {
+            "text": "Creek bubbling over rocks",
+            "negative": "music, voices, city sounds"
+          }
+        ]
+      },
+      "water": {
+        "name": "Water Sounds",
+        "prompts": [
+          {
+            "text": "Gentle stream over rocks",
+            "negative": "music, voices, urban"
+          },
+          {
+            "text": "Waterfall roaring",
+            "negative": "music, voices, quiet sounds"
+          },
+          {
+            "text": "Ocean waves on sandy beach",
+            "negative": "music, voices, forest"
+          }
+        ]
+      }
+    }
+  },
+  "urban": {
+    "name": "Urban & Indoor",
+    "subcategories": {
+      "city": {
+        "name": "City Sounds",
+        "prompts": [
+          {
+            "text": "Busy street with traffic and horns",
+            "negative": "music, voices, nature"
+          },
+          {
+            "text": "Construction site with machinery",
+            "negative": "music, voices, quiet"
+          },
+          {
+            "text": "Subway station ambience",
+            "negative": "music, voices, outdoor nature"
+          }
+        ]
+      },
+      "indoor": {
+        "name": "Indoor Ambience",
+        "prompts": [
+          {
+            "text": "Office with typing and phones",
+            "negative": "music, clear voices, outdoor"
+          },
+          {
+            "text": "Restaurant kitchen activity",
+            "negative": "music, clear voices, quiet"
+          },
+          {
+            "text": "Shopping mall background noise",
+            "negative": "music, clear voices, nature"
+          }
+        ]
+      },
+      "mechanical": {
+        "name": "Mechanical Ambience",
+        "prompts": [
+          {
+            "text": "Computer server room",
+            "negative": "music, voices, nature"
+          },
+          {
+            "text": "Boiler room pipes and steam",
+            "negative": "music, voices, outdoor"
+          },
+          {
+            "text": "Industrial ventilation",
+            "negative": "music, voices, quiet"
+          }
+        ]
+      }
+    }
+  }
+}
